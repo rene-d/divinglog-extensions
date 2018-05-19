@@ -1,0 +1,1465 @@
+﻿<Headers>
+  <computer>
+    <model>16</model>
+    <name>Smart Pro</name>
+    <headerLength>92</headerLength>
+    <header>
+      <name>Unknown12</name>
+      <offset>12</offset>
+      <size>4</size>
+    </header>
+    <header>
+      <name>Alarms During Dive</name>
+      <offset>16</offset>
+      <size>1</size>
+    </header>
+    <header>
+      <name>MB-level at start of dive</name>
+      <offset>17</offset>
+      <size>1</size>
+    </header>
+    <header>
+      <name>Maximum Depth</name>
+      <offset>18</offset>
+      <size>2</size>
+      <type>float</type>
+      <formula>value/100</formula>
+      <unit>meters</unit>
+    </header>
+    <header>
+      <name>Duration</name>
+      <offset>20</offset>
+      <size>2</size>
+      <unit>minutes</unit>
+    </header>
+    <header>
+      <name>Minimum Temperature</name>
+      <offset>22</offset>
+      <size>2</size>
+      <type>float</type>
+      <formula>value/10</formula>
+      <unit>°C</unit>
+    </header>
+    <header>
+      <name>O2%</name>
+      <offset>24</offset>
+      <size>2</size>
+      <unit>%</unit>
+    </header>
+    <header>
+      <name>Surface Interval</name>
+      <offset>26</offset>
+      <size>2</size>
+      <unit>seconds</unit>
+    </header>
+    <header>
+      <name>CNS% After Dive</name>
+      <offset>28</offset>
+      <size>2</size>
+      <unit>%</unit>
+    </header>
+    <header>
+      <name>Altitude Level</name>
+      <offset>30</offset>
+      <size>2</size>
+    </header>
+    <header>
+      <name>PO2 Limit</name>
+      <offset>32</offset>
+      <size>2</size>
+      <type>float</type>
+      <formula>value/10</formula>
+    </header>
+    <header>
+      <name>Depth Limit</name>
+      <offset>34</offset>
+      <size>2</size>
+      <type>float</type>
+      <formula>value/100</formula>
+      <unit>meters</unit>
+    </header>
+    <header>
+      <name>Unknown36</name>
+      <offset>36</offset>
+      <size>2</size>
+    </header>
+    <header>
+      <name>Desat Before Dive</name>
+      <offset>38</offset>
+      <size>2</size>
+    </header>
+    <header>
+      <name>Unknown40</name>
+      <offset>40</offset>
+      <size>8</size>
+    </header>
+    <header>
+      <name>Settings</name>
+      <offset>48</offset>
+      <size>2</size>
+    </header>
+    <header>
+      <name>Unknown, always 0xff 0xff</name>
+      <offset>50</offset>
+      <size>2</size>
+    </header>
+    <header>
+      <name>Unknown52</name>
+      <offset>52</offset>
+      <size>8</size>
+    </header>
+    <header>
+      <name>cpt data at start of dive #1 (fast tissue)</name>
+      <offset>60</offset>
+      <size>4</size>
+    </header>
+    <header>
+      <name>cpt data at start of dive #2</name>
+      <offset>64</offset>
+      <size>4</size>
+    </header>
+    <header>
+      <name>cpt data at start of dive #3</name>
+      <offset>68</offset>
+      <size>4</size>
+    </header>
+    <header>
+      <name>cpt data at start of dive #4</name>
+      <offset>72</offset>
+      <size>4</size>
+    </header>
+    <header>
+      <name>cpt data at start of dive #5</name>
+      <offset>76</offset>
+      <size>4</size>
+    </header>
+    <header>
+      <name>cpt data at start of dive #6</name>
+      <offset>80</offset>
+      <size>4</size>
+    </header>
+    <header>
+      <name>cpt data at start of dive #7</name>
+      <offset>84</offset>
+      <size>4</size>
+    </header>
+    <header>
+      <name>cpt data at start of dive #8 (slow tissue)</name>
+      <offset>88</offset>
+      <size>4</size>
+    </header>
+  </computer>
+  <computer>
+    <model>17</model>
+    <name>Galileo Sol</name>
+    <headerLength>152</headerLength>
+    <header>
+      <name>Unknown12</name>
+      <offset>12</offset>
+      <size>4</size>
+    </header>
+    <header>
+      <name>UTC Offset</name>
+      <offset>16</offset>
+      <size>1</size>
+      <type>sbyte</type>
+    </header>
+    <header>
+      <name>Rep. No</name>
+      <offset>17</offset>
+      <size>1</size>
+    </header>
+    <header>
+      <name>MB-level at start of dive</name>
+      <offset>18</offset>
+      <size>1</size>
+    </header>
+    <header>
+      <name>Battery</name>
+      <offset>19</offset>
+      <size>1</size>
+    </header>
+    <header>
+      <name>Unknown20</name>
+      <offset>20</offset>
+      <size>2</size>
+    </header>
+    <header>
+      <name>Maximum Depth</name>
+      <offset>22</offset>
+      <size>2</size>
+      <type>float</type>
+      <formula>value/100</formula>
+      <unit>meters</unit>
+    </header>
+    <header>
+      <name>Unknown24</name>
+      <offset>24</offset>
+      <size>2</size>
+    </header>
+    <header>
+      <name>Duration</name>
+      <offset>26</offset>
+      <size>2</size>
+      <unit>minutes</unit>
+    </header>
+    <header>
+      <name>Maximum Temperature</name>
+      <offset>28</offset>
+      <size>2</size>
+      <type>float</type>
+      <formula>value/10</formula>
+      <unit>°C</unit>
+    </header>
+    <header>
+      <name>Minimum Temperature</name>
+      <offset>30</offset>
+      <size>2</size>
+      <type>float</type>
+      <formula>value/10</formula>
+      <unit>°C</unit>
+    </header>
+    <header>
+      <name>Air Temperature</name>
+      <offset>32</offset>
+      <size>2</size>
+      <type>float</type>
+      <formula>value/10</formula>
+      <unit>°C</unit>
+    </header>
+    <header>
+      <name>Unknown34</name>
+      <offset>34</offset>
+      <size>4</size>
+    </header>
+    <header>
+      <name>Surface Interval</name>
+      <offset>38</offset>
+      <size>2</size>
+      <unit>seconds</unit>
+    </header>
+    <header>
+      <name>CNS% After Dive</name>
+      <offset>40</offset>
+      <size>2</size>
+      <unit>%</unit>
+    </header>
+    <header>
+      <name>O2% Tank 1</name>
+      <offset>42</offset>
+      <size>2</size>
+      <unit>%</unit>
+    </header>
+    <header>
+      <name>O2% Tank 2</name>
+      <offset>44</offset>
+      <size>2</size>
+      <unit>%</unit>
+    </header>
+    <header>
+      <name>O2% Tank D</name>
+      <offset>46</offset>
+      <size>2</size>
+      <unit>%</unit>
+    </header>
+    <header>
+      <name>Tank 1 Pressure At Start Of Dive</name>
+      <offset>48</offset>
+      <size>2</size>
+      <type>float</type>
+      <formula>value/128</formula>
+      <unit>bar</unit>
+    </header>
+    <header>
+      <name>Tank 1 Pressure At End Of Dive</name>
+      <offset>50</offset>
+      <size>2</size>
+      <type>float</type>
+      <formula>value/128</formula>
+      <unit>bar</unit>
+    </header>
+    <header>
+      <name>Tank 2 Pressure At Start Of Dive</name>
+      <offset>52</offset>
+      <size>2</size>
+      <type>float</type>
+      <formula>value/128</formula>
+      <unit>bar</unit>
+    </header>
+    <header>
+      <name>Tank 2 Pressure At End Of Dive</name>
+      <offset>54</offset>
+      <size>2</size>
+      <type>float</type>
+      <formula>value/128</formula>
+      <unit>bar</unit>
+    </header>
+    <header>
+      <name>Tank D Pressure At Start Of Dive</name>
+      <offset>56</offset>
+      <size>2</size>
+      <type>float</type>
+      <formula>value/128</formula>
+      <unit>bar</unit>
+    </header>
+    <header>
+      <name>Tank D Pressure At End Of Dive</name>
+      <offset>58</offset>
+      <size>2</size>
+      <type>float</type>
+      <formula>value/128</formula>
+      <unit>bar</unit>
+    </header>
+    <header>
+      <name>Unknown60</name>
+      <offset>60</offset>
+      <size>2</size>
+    </header>
+    <header>
+      <name>PO2 Limit - Tank 1</name>
+      <offset>62</offset>
+      <size>2</size>
+      <type>float</type>
+      <formula>value/1000</formula>
+      <unit>bar</unit>
+    </header>
+    <header>
+      <name>PO2 Limit - Tank 2</name>
+      <offset>64</offset>
+      <size>2</size>
+      <type>float</type>
+      <formula>value/1000</formula>
+      <unit>bar</unit>
+    </header>
+    <header>
+      <name>PO2 Limit - Tank D</name>
+      <offset>66</offset>
+      <size>2</size>
+      <type>float</type>
+      <formula>value/1000</formula>
+      <unit>bar</unit>
+    </header>
+    <header>
+      <name>Unknown68</name>
+      <offset>68</offset>
+      <size>2</size>
+    </header>
+    <header>
+      <name>Altitude Level</name>
+      <offset>70</offset>
+      <size>2</size>
+    </header>
+    <header>
+      <name>Unknown72</name>
+      <offset>72</offset>
+      <size>2</size>
+    </header>
+    <header>
+      <name>Depth Limit</name>
+      <offset>74</offset>
+      <size>2</size>
+      <type>float</type>
+      <formula>value/100</formula>
+      <unit>meters</unit>
+    </header>
+    <header>
+      <name>Duration limit, default 60 mins?</name>
+      <offset>76</offset>
+      <size>2</size>
+    </header>
+    <header>
+      <name>Tank Pressure Limit</name>
+      <offset>78</offset>
+      <size>2</size>
+      <type>float</type>
+      <formula>value/128</formula>
+      <unit>bar</unit>
+    </header>
+    <header>
+      <name>Unknown80</name>
+      <offset>80</offset>
+      <size>8</size>
+    </header>
+    <header>
+      <name>Desat Before Dive</name>
+      <offset>88</offset>
+      <size>2</size>
+    </header>
+    <header>
+      <name>Unknown90</name>
+      <offset>90</offset>
+      <size>30</size>
+    </header>
+    <header>
+      <name>cpt data at start of dive #1 (fast tissue)</name>
+      <offset>120</offset>
+      <size>4</size>
+    </header>
+    <header>
+      <name>cpt data at start of dive #2</name>
+      <offset>124</offset>
+      <size>4</size>
+    </header>
+    <header>
+      <name>cpt data at start of dive #3</name>
+      <offset>128</offset>
+      <size>4</size>
+    </header>
+    <header>
+      <name>cpt data at start of dive #4</name>
+      <offset>132</offset>
+      <size>4</size>
+    </header>
+    <header>
+      <name>cpt data at start of dive #5</name>
+      <offset>136</offset>
+      <size>4</size>
+    </header>
+    <header>
+      <name>cpt data at start of dive #6</name>
+      <offset>140</offset>
+      <size>4</size>
+    </header>
+    <header>
+      <name>cpt data at start of dive #7</name>
+      <offset>144</offset>
+      <size>4</size>
+    </header>
+    <header>
+      <name>cpt data at start of dive #8 (slow tissue)</name>
+      <offset>148</offset>
+      <size>4</size>
+    </header>
+  </computer>
+  <computer>
+    <model>18</model>
+    <name>Aladin Tec, Aladin Prime</name>
+    <headerLength>108</headerLength>
+    <header>
+      <name>Unknown12</name>
+      <offset>12</offset>
+      <size>4</size>
+    </header>
+    <header>
+      <name>UTC Offset</name>
+      <offset>16</offset>
+      <size>1</size>
+      <type>sbyte</type>
+    </header>
+    <header>
+      <name>Rep. No</name>
+      <offset>17</offset>
+      <size>1</size>
+    </header>
+    <header>
+      <name>MB-level at start of dive</name>
+      <offset>18</offset>
+      <size>1</size>
+    </header>
+    <header>
+      <name>Battery</name>
+      <offset>19</offset>
+      <size>1</size>
+    </header>
+    <header>
+      <name>Unknown20</name>
+      <offset>20</offset>
+      <size>1</size>
+    </header>
+    <header>
+      <name>Alarms During Dive</name>
+      <offset>21</offset>
+      <size>1</size>
+    </header>
+    <header>
+      <name>Maximum Depth</name>
+      <offset>22</offset>
+      <size>2</size>
+      <type>float</type>
+      <formula>value/100</formula>
+      <unit>meters</unit>
+    </header>
+    <header>
+      <name>Duration</name>
+      <offset>24</offset>
+      <size>2</size>
+      <unit>minutes</unit>
+    </header>
+    <header>
+      <name>Minimum Temperature</name>
+      <offset>26</offset>
+      <size>2</size>
+      <type>float</type>
+      <formula>value/10</formula>
+      <unit>°C</unit>
+    </header>
+    <header>
+      <name>Maximum Temperature</name>
+      <offset>28</offset>
+      <size>2</size>
+      <type>float</type>
+      <formula>value/10</formula>
+      <unit>°C</unit>
+    </header>
+    <header>
+      <name>O2%</name>
+      <offset>30</offset>
+      <size>2</size>
+      <unit>%</unit>
+    </header>
+    <header>
+      <name>Air Temperature</name>
+      <offset>32</offset>
+      <size>2</size>
+      <type>float</type>
+      <formula>value/10</formula>
+      <unit>°C</unit>
+    </header>
+    <header>
+      <name>Surface Interval</name>
+      <offset>34</offset>
+      <size>2</size>
+      <unit>seconds</unit>
+    </header>
+    <header>
+      <name>CNS% After Dive</name>
+      <offset>36</offset>
+      <size>2</size>
+      <unit>%</unit>
+    </header>
+    <header>
+      <name>Altitude Level</name>
+      <offset>38</offset>
+      <size>2</size>
+    </header>
+    <header>
+      <name>Unknown40</name>
+      <offset>40</offset>
+      <size>2</size>
+    </header>
+    <header>
+      <name>PO2 Limit</name>
+      <offset>42</offset>
+      <size>2</size>
+      <type>float</type>
+      <formula>value/10</formula>
+      <unit>bar</unit>
+    </header>
+    <header>
+      <name>Depth Limit</name>
+      <offset>44</offset>
+      <size>2</size>
+      <type>float</type>
+      <formula>value/100</formula>
+      <unit>meters</unit>
+    </header>
+    <header>
+      <name>Unknown46</name>
+      <offset>46</offset>
+      <size>2</size>
+    </header>
+    <header>
+      <name>Desat Before Dive</name>
+      <offset>48</offset>
+      <size>2</size>
+      <unit>minutes</unit>
+    </header>
+    <header>
+      <name>Unknown50</name>
+      <offset>50</offset>
+      <size>2</size>
+    </header>
+    <header>
+      <name>Desat Before Dive</name>
+      <offset>52</offset>
+      <size>2</size>
+    </header>
+    <header>
+      <name>Unknown54</name>
+      <offset>54</offset>
+      <size>22</size>
+    </header>
+    <header>
+      <name>cpt data at start of dive #1 (fast)</name>
+      <offset>76</offset>
+      <size>4</size>
+    </header>
+    <header>
+      <name>cpt data at start of dive #2</name>
+      <offset>80</offset>
+      <size>4</size>
+    </header>
+    <header>
+      <name>cpt data at start of dive #3</name>
+      <offset>84</offset>
+      <size>4</size>
+    </header>
+    <header>
+      <name>cpt data at start of dive #4</name>
+      <offset>88</offset>
+      <size>4</size>
+    </header>
+    <header>
+      <name>cpt data at start of dive #5</name>
+      <offset>92</offset>
+      <size>4</size>
+    </header>
+    <header>
+      <name>cpt data at start of dive #6</name>
+      <offset>96</offset>
+      <size>4</size>
+    </header>
+    <header>
+      <name>cpt data at start of dive #7</name>
+      <offset>100</offset>
+      <size>4</size>
+    </header>
+    <header>
+      <name>cpt data at start of dive #8 (slow)</name>
+      <offset>104</offset>
+      <size>4</size>
+    </header>
+  </computer>
+  <computer>
+    <model>19</model>
+    <name>Aladin Tec 2G</name>
+    <headerLength>116</headerLength>
+    <header>
+      <name>Unknown12</name>
+      <offset>12</offset>
+      <size>4</size>
+    </header>
+    <header>
+      <name>UTC Offset</name>
+      <offset>16</offset>
+      <size>1</size>
+      <type>sbyte</type>
+    </header>
+    <header>
+      <name>Rep. No</name>
+      <offset>17</offset>
+      <size>1</size>
+    </header>
+    <header>
+      <name>MB-level at start of dive</name>
+      <offset>18</offset>
+      <size>1</size>
+    </header>
+    <header>
+      <name>Unknown19</name>
+      <offset>19</offset>
+      <size>2</size>
+    </header>
+    <header>
+      <name>Alarms During Dive</name>
+      <offset>21</offset>
+      <size>1</size>
+    </header>
+    <header>
+      <name>Maximum Depth(*)</name>
+      <offset>22</offset>
+      <size>2</size>
+      <type>float</type>
+      <formula>value/100</formula>
+      <unit>meters</unit>
+    </header>
+    <header>
+      <name>Average Depth</name>
+      <offset>24</offset>
+      <size>2</size>
+      <type>float</type>
+      <formula>value/100</formula>
+      <unit>meters</unit>
+    </header>
+    <header>
+      <name>Duration</name>
+      <offset>26</offset>
+      <size>2</size>
+      <type>hh:mm</type>
+      <unit>minutes</unit>
+    </header>
+    <header>
+      <name>Maximum Temperature</name>
+      <offset>28</offset>
+      <size>2</size>
+      <type>float</type>
+      <formula>value/10</formula>
+      <unit>°C</unit>
+    </header>
+    <header>
+      <name>Minimum Temperature</name>
+      <offset>30</offset>
+      <size>2</size>
+      <type>float</type>
+      <formula>value/10</formula>
+      <unit>°C</unit>
+    </header>
+    <header>
+      <name>Air Temperature</name>
+      <offset>32</offset>
+      <size>2</size>
+      <type>float</type>
+      <formula>value/10</formula>
+      <unit>°C</unit>
+    </header>
+    <header>
+      <name>O2%</name>
+      <offset>34</offset>
+      <size>2</size>
+      <unit>%</unit>
+    </header>
+    <header>
+      <name>Unknown36</name>
+      <offset>36</offset>
+      <size>1</size>
+    </header>
+    <header>
+      <name>Battery</name>
+      <offset>37</offset>
+      <size>1</size>
+    </header>
+    <header>
+      <name>Unknown(always 3)</name>
+      <offset>38</offset>
+      <size>2</size>
+    </header>
+    <header>
+      <name>Interval</name>
+      <offset>40</offset>
+      <size>2</size>
+      <type>hh:mm</type>
+    </header>
+    <header>
+      <name>CNS% After Dive</name>
+      <offset>42</offset>
+      <size>2</size>
+      <unit>%</unit>
+    </header>
+    <header>
+      <name>Altitude Level</name>
+      <offset>44</offset>
+      <size>2</size>
+    </header>
+    <header>
+      <name>PO2 Limit</name>
+      <offset>46</offset>
+      <size>2</size>
+      <type>float</type>
+      <formula>value/1000</formula>
+      <unit>bar</unit>
+    </header>
+    <header>
+      <name>PO2 Limit</name>
+      <offset>48</offset>
+      <size>2</size>
+      <type>float</type>
+      <formula>value/1000</formula>
+      <unit>bar</unit>
+    </header>
+    <header>
+      <name>PO2 Limit</name>
+      <offset>50</offset>
+      <size>2</size>
+      <type>float</type>
+      <formula>value/1000</formula>
+      <unit>bar</unit>
+    </header>
+    <header>
+      <name>Unknown52</name>
+      <offset>52</offset>
+      <size>2</size>
+    </header>
+    <header>
+      <name>Unknown54</name>
+      <offset>54</offset>
+      <size>2</size>
+    </header>
+    <header>
+      <name>Desat Before Dive</name>
+      <offset>56</offset>
+      <size>2</size>
+      <type>hh:mm</type>
+    </header>
+    <header>
+      <name>Unknown58</name>
+      <offset>58</offset>
+      <size>4</size>
+    </header>
+    <header>
+      <name>Water (0=fresh, 0x0010=salt  depth/1,025)</name>
+      <offset>62</offset>
+      <size>2</size>
+    </header>
+    <header>
+      <name>Unknown64</name>
+      <offset>64</offset>
+      <size>10</size>
+    </header>
+    <header>
+      <name>Unknown74</name>
+      <offset>74</offset>
+      <size>10</size>
+    </header>
+    <header>
+      <name>cpt data at start of dive #1 (fast)</name>
+      <offset>84</offset>
+      <size>4</size>
+    </header>
+    <header>
+      <name>cpt data at start of dive #2</name>
+      <offset>88</offset>
+      <size>4</size>
+    </header>
+    <header>
+      <name>cpt data at start of dive #3</name>
+      <offset>92</offset>
+      <size>4</size>
+    </header>
+    <header>
+      <name>cpt data at start of dive #4</name>
+      <offset>96</offset>
+      <size>4</size>
+    </header>
+    <header>
+      <name>cpt data at start of dive #5</name>
+      <offset>100</offset>
+      <size>4</size>
+    </header>
+    <header>
+      <name>cpt data at start of dive #6</name>
+      <offset>104</offset>
+      <size>4</size>
+    </header>
+    <header>
+      <name>cpt data at start of dive #7</name>
+      <offset>108</offset>
+      <size>4</size>
+    </header>
+    <header>
+      <name>cpt data at start of dive #8 (slow)</name>
+      <offset>112</offset>
+      <size>4</size>
+    </header>
+  </computer>
+  <computer>
+    <model>20</model>
+    <name>Smart Com</name>
+    <headerLength>100</headerLength>
+    <header>
+      <name>Unknown12</name>
+      <offset>12</offset>
+      <size>4</size>
+    </header>
+    <header>
+      <name>Alarms During Dive</name>
+      <offset>16</offset>
+      <size>1</size>
+    </header>
+    <header>
+      <name>MB-level at start of dive</name>
+      <offset>17</offset>
+      <size>1</size>
+    </header>
+    <header>
+      <name>Maximum Depth</name>
+      <offset>18</offset>
+      <size>2</size>
+      <type>float</type>
+      <formula>value/100</formula>
+      <unit>meters</unit>
+    </header>
+    <header>
+      <name>Duration</name>
+      <offset>20</offset>
+      <size>2</size>
+      <unit>minutes</unit>
+    </header>
+    <header>
+      <name>Minimum Temperature</name>
+      <offset>22</offset>
+      <size>2</size>
+      <type>float</type>
+      <formula>value/10</formula>
+      <unit>°C</unit>
+    </header>
+    <header>
+      <name>O2%</name>
+      <offset>24</offset>
+      <size>2</size>
+      <unit>%</unit>
+    </header>
+    <header>
+      <name>Surface Interval</name>
+      <offset>26</offset>
+      <size>2</size>
+      <type>hh:mm</type>
+      <unit>seconds</unit>
+    </header>
+    <header>
+      <name>CNS% After Dive</name>
+      <offset>28</offset>
+      <size>2</size>
+      <unit>%</unit>
+    </header>
+    <header>
+      <name>Tank Pressure At Start Of Dive</name>
+      <offset>30</offset>
+      <size>2</size>
+      <type>float</type>
+      <formula>value/128+0.5</formula>
+      <unit>bar</unit>
+    </header>
+    <header>
+      <name>Tank Pressure At End Of Dive</name>
+      <offset>32</offset>
+      <size>2</size>
+      <type>float</type>
+      <formula>value/128+0.5</formula>
+      <unit>bar</unit>
+    </header>
+    <header>
+      <name>Depth Limit</name>
+      <offset>34</offset>
+      <size>2</size>
+      <type>float</type>
+      <formula>value/100</formula>
+      <unit>meters</unit>
+    </header>
+    <header>
+      <name>Tank Pressure Limit</name>
+      <offset>36</offset>
+      <size>2</size>
+      <type>float</type>
+      <formula>value/128+0.5</formula>
+    </header>
+    <header>
+      <name>Unknown38</name>
+      <offset>38</offset>
+      <size>4</size>
+    </header>
+    <header>
+      <name>Altitude Level</name>
+      <offset>42</offset>
+      <size>2</size>
+    </header>
+    <header>
+      <name>PO2 Limit</name>
+      <offset>44</offset>
+      <size>2</size>
+      <type>float</type>
+      <formula>value/1000</formula>
+      <unit>bar</unit>
+    </header>
+    <header>
+      <name>Unknown46</name>
+      <offset>46</offset>
+      <size>2</size>
+    </header>
+    <header>
+      <name>Desat Before Dive</name>
+      <offset>48</offset>
+      <size>2</size>
+      <type>hh:mm</type>
+    </header>
+    <header>
+      <name>Unknown50</name>
+      <offset>50</offset>
+      <size>8</size>
+    </header>
+    <header>
+      <name>Settings</name>
+      <offset>58</offset>
+      <size>2</size>
+    </header>
+    <header>
+      <name>Unknown60</name>
+      <offset>60</offset>
+      <size>8</size>
+    </header>
+    <header>
+      <name>cpt data at start of dive #1 (fast tissue)</name>
+      <offset>68</offset>
+      <size>4</size>
+    </header>
+    <header>
+      <name>cpt data at start of dive #2</name>
+      <offset>72</offset>
+      <size>4</size>
+    </header>
+    <header>
+      <name>cpt data at start of dive #3</name>
+      <offset>76</offset>
+      <size>4</size>
+    </header>
+    <header>
+      <name>cpt data at start of dive #4</name>
+      <offset>80</offset>
+      <size>4</size>
+    </header>
+    <header>
+      <name>cpt data at start of dive #5</name>
+      <offset>84</offset>
+      <size>4</size>
+    </header>
+    <header>
+      <name>cpt data at start of dive #6</name>
+      <offset>88</offset>
+      <size>4</size>
+    </header>
+    <header>
+      <name>cpt data at start of dive #7</name>
+      <offset>92</offset>
+      <size>4</size>
+    </header>
+    <header>
+      <name>cpt data at start of dive #8 (slow tissue)</name>
+      <offset>96</offset>
+      <size>4</size>
+    </header>
+  </computer>
+  <computer>
+    <model>24</model>
+    <name>Smart Tec</name>
+    <headerLength>132</headerLength>
+    <header>
+      <name>Unknown12</name>
+      <offset>12</offset>
+      <size>4</size>
+    </header>
+    <header>
+      <name>Alarms During Dive</name>
+      <offset>16</offset>
+      <size>1</size>
+    </header>
+    <header>
+      <name>MB-level at start of dive</name>
+      <offset>17</offset>
+      <size>1</size>
+    </header>
+    <header>
+      <name>Maximum Depth</name>
+      <offset>18</offset>
+      <size>2</size>
+      <type>float</type>
+      <formula>value/100</formula>
+      <unit>meters</unit>
+    </header>
+    <header>
+      <name>Duration</name>
+      <offset>20</offset>
+      <size>2</size>
+      <unit>minutes</unit>
+    </header>
+    <header>
+      <name>Minimum Temperature</name>
+      <offset>22</offset>
+      <size>2</size>
+      <type>float</type>
+      <formula>value/10</formula>
+      <unit>°C</unit>
+    </header>
+    <header>
+      <name>Surface Interval</name>
+      <offset>24</offset>
+      <size>2</size>
+      <type>hh:mm</type>
+      <unit>seconds</unit>
+    </header>
+    <header>
+      <name>CNS% After Dive</name>
+      <offset>26</offset>
+      <size>2</size>
+      <unit>%</unit>
+    </header>
+    <header>
+      <name>O2% Tank 1</name>
+      <offset>28</offset>
+      <size>2</size>
+      <unit>%</unit>
+    </header>
+    <header>
+      <name>O2% Tank 2</name>
+      <offset>30</offset>
+      <size>2</size>
+      <unit>%</unit>
+    </header>
+    <header>
+      <name>O2% Tank D</name>
+      <offset>32</offset>
+      <size>2</size>
+      <unit>%</unit>
+    </header>
+    <header>
+      <name>Tank 1 Pressure At Start Of Dive</name>
+      <offset>34</offset>
+      <size>2</size>
+      <type>float</type>
+      <formula>value/128</formula>
+      <unit>bar</unit>
+    </header>
+    <header>
+      <name>Tank 1 Pressure At End Of Dive</name>
+      <offset>36</offset>
+      <size>2</size>
+      <type>float</type>
+      <formula>value/128</formula>
+      <unit>bar</unit>
+    </header>
+    <header>
+      <name>Tank 2 Pressure At Start Of Dive</name>
+      <offset>38</offset>
+      <size>2</size>
+      <type>float</type>
+      <formula>value/128</formula>
+      <unit>bar</unit>
+    </header>
+    <header>
+      <name>Tank 2 Pressure At End Of Dive</name>
+      <offset>40</offset>
+      <size>2</size>
+      <type>float</type>
+      <formula>value/128</formula>
+      <unit>bar</unit>
+    </header>
+    <header>
+      <name>Tank D Pressure At Start Of Dive</name>
+      <offset>42</offset>
+      <size>2</size>
+      <type>float</type>
+      <formula>value/128</formula>
+      <unit>bar</unit>
+    </header>
+    <header>
+      <name>Tank D Pressure At End Of Dive</name>
+      <offset>44</offset>
+      <size>2</size>
+      <type>float</type>
+      <formula>value/128</formula>
+      <unit>bar</unit>
+    </header>
+    <header>
+      <name>Unknown46</name>
+      <offset>46</offset>
+      <size>2</size>
+    </header>
+    <header>
+      <name>Depth Limit</name>
+      <offset>48</offset>
+      <size>2</size>
+      <type>float</type>
+      <formula>value/100</formula>
+      <unit>meters</unit>
+    </header>
+    <header>
+      <name>Tank Pressure Limit</name>
+      <offset>50</offset>
+      <size>2</size>
+      <type>float</type>
+      <formula>value/128</formula>
+    </header>
+    <header>
+      <name>Unknown52</name>
+      <offset>52</offset>
+      <size>4</size>
+    </header>
+    <header>
+      <name>Altitude Level</name>
+      <offset>56</offset>
+      <size>2</size>
+    </header>
+    <header>
+      <name>PO2 Limit - Tank 1</name>
+      <offset>58</offset>
+      <size>2</size>
+      <type>float</type>
+      <formula>value/1000</formula>
+      <unit>bar</unit>
+    </header>
+    <header>
+      <name>PO2 Limit - Tank 2</name>
+      <offset>60</offset>
+      <size>2</size>
+      <type>float</type>
+      <formula>value/1000</formula>
+      <unit>bar</unit>
+    </header>
+    <header>
+      <name>PO2 Limit - Tank D</name>
+      <offset>62</offset>
+      <size>2</size>
+      <type>float</type>
+      <formula>value/1000</formula>
+      <unit>bar</unit>
+    </header>
+    <header>
+      <name>Unknown64</name>
+      <offset>64</offset>
+      <size>6</size>
+    </header>
+    <header>
+      <name>Unknown70</name>
+      <offset>70</offset>
+      <size>10</size>
+    </header>
+    <header>
+      <name>Desat Before Dive</name>
+      <offset>80</offset>
+      <size>2</size>
+      <type>hh:mm</type>
+    </header>
+    <header>
+      <name>Unknown82</name>
+      <offset>82</offset>
+      <size>8</size>
+    </header>
+    <header>
+      <name>Settings</name>
+      <offset>90</offset>
+      <size>2</size>
+    </header>
+    <header>
+      <name>Unknown92</name>
+      <offset>92</offset>
+      <size>8</size>
+    </header>
+    <header>
+      <name>cpt data at start of dive #1 (fast tissue)</name>
+      <offset>100</offset>
+      <size>4</size>
+    </header>
+    <header>
+      <name>cpt data at start of dive #2</name>
+      <offset>104</offset>
+      <size>4</size>
+    </header>
+    <header>
+      <name>cpt data at start of dive #3</name>
+      <offset>108</offset>
+      <size>4</size>
+    </header>
+    <header>
+      <name>cpt data at start of dive #4</name>
+      <offset>112</offset>
+      <size>4</size>
+    </header>
+    <header>
+      <name>cpt data at start of dive #5</name>
+      <offset>116</offset>
+      <size>4</size>
+    </header>
+    <header>
+      <name>cpt data at start of dive #6</name>
+      <offset>120</offset>
+      <size>4</size>
+    </header>
+    <header>
+      <name>cpt data at start of dive #7</name>
+      <offset>124</offset>
+      <size>4</size>
+    </header>
+    <header>
+      <name>cpt data at start of dive #8 (slow tissue)</name>
+      <offset>128</offset>
+      <size>4</size>
+    </header>
+  </computer>
+  <computer>
+    <model>28</model>
+    <name>Smart Z</name>
+    <headerLength>132</headerLength>
+    <header>
+      <name>Unknown12</name>
+      <offset>12</offset>
+      <size>4</size>
+    </header>
+    <header>
+      <name>Alarms During Dive</name>
+      <offset>16</offset>
+      <size>1</size>
+    </header>
+    <header>
+      <name>MB-level at start of dive</name>
+      <offset>17</offset>
+      <size>1</size>
+    </header>
+    <header>
+      <name>Maximum Depth</name>
+      <offset>18</offset>
+      <size>2</size>
+      <type>float</type>
+      <formula>value/100</formula>
+      <unit>meters</unit>
+    </header>
+    <header>
+      <name>Duration</name>
+      <offset>20</offset>
+      <size>2</size>
+      <unit>minutes</unit>
+    </header>
+    <header>
+      <name>Minimum Temperature</name>
+      <offset>22</offset>
+      <size>2</size>
+      <type>float</type>
+      <formula>value/10</formula>
+      <unit>°C</unit>
+    </header>
+    <header>
+      <name>Surface Interval</name>
+      <offset>24</offset>
+      <size>2</size>
+      <unit>seconds</unit>
+    </header>
+    <header>
+      <name>CNS% After Dive</name>
+      <offset>26</offset>
+      <size>2</size>
+      <unit>%</unit>
+    </header>
+    <header>
+      <name>O2%</name>
+      <offset>28</offset>
+      <size>2</size>
+      <unit>%</unit>
+    </header>
+    <header>
+      <name>Unknown/Unused</name>
+      <offset>30</offset>
+      <size>4</size>
+    </header>
+    <header>
+      <name>Tank Pressure At Start Of Dive</name>
+      <offset>34</offset>
+      <size>2</size>
+      <type>float</type>
+      <formula>value/128</formula>
+      <unit>bar</unit>
+    </header>
+    <header>
+      <name>Tank Pressure At End Of Dive</name>
+      <offset>36</offset>
+      <size>2</size>
+      <type>float</type>
+      <formula>value/128</formula>
+      <unit>bar</unit>
+    </header>
+    <header>
+      <name>Unknown/Unused</name>
+      <offset>38</offset>
+      <size>8</size>
+    </header>
+    <header>
+      <name>Unknown46</name>
+      <offset>46</offset>
+      <size>2</size>
+    </header>
+    <header>
+      <name>Depth Limit</name>
+      <offset>48</offset>
+      <size>2</size>
+      <type>float</type>
+      <formula>value/100</formula>
+      <unit>meters</unit>
+    </header>
+    <header>
+      <name>Tank Pressure Limit</name>
+      <offset>50</offset>
+      <size>2</size>
+      <type>float</type>
+      <formula>value/128</formula>
+    </header>
+    <header>
+      <name>Unknown52</name>
+      <offset>52</offset>
+      <size>4</size>
+    </header>
+    <header>
+      <name>Altitude Level</name>
+      <offset>56</offset>
+      <size>2</size>
+    </header>
+    <header>
+      <name>PO2 Limit</name>
+      <offset>58</offset>
+      <size>2</size>
+      <type>float</type>
+      <formula>value/1000</formula>
+      <unit>bar</unit>
+    </header>
+    <header>
+      <name>Unknown/Unused</name>
+      <offset>60</offset>
+      <size>4</size>
+    </header>
+    <header>
+      <name>Unknown64</name>
+      <offset>64</offset>
+      <size>6</size>
+    </header>
+    <header>
+      <name>Unknown70</name>
+      <offset>70</offset>
+      <size>10</size>
+    </header>
+    <header>
+      <name>Desat Before Dive</name>
+      <offset>80</offset>
+      <size>2</size>
+    </header>
+    <header>
+      <name>Unknown82</name>
+      <offset>82</offset>
+      <size>8</size>
+    </header>
+    <header>
+      <name>Settings</name>
+      <offset>90</offset>
+      <size>2</size>
+    </header>
+    <header>
+      <name>Unknown92</name>
+      <offset>92</offset>
+      <size>8</size>
+    </header>
+    <header>
+      <name>cpt data at start of dive #1 (fast tissue)</name>
+      <offset>100</offset>
+      <size>4</size>
+    </header>
+    <header>
+      <name>cpt data at start of dive #2</name>
+      <offset>104</offset>
+      <size>4</size>
+    </header>
+    <header>
+      <name>cpt data at start of dive #3</name>
+      <offset>108</offset>
+      <size>4</size>
+    </header>
+    <header>
+      <name>cpt data at start of dive #4</name>
+      <offset>112</offset>
+      <size>4</size>
+    </header>
+    <header>
+      <name>cpt data at start of dive #5</name>
+      <offset>116</offset>
+      <size>4</size>
+    </header>
+    <header>
+      <name>cpt data at start of dive #6</name>
+      <offset>120</offset>
+      <size>4</size>
+    </header>
+    <header>
+      <name>cpt data at start of dive #7</name>
+      <offset>124</offset>
+      <size>4</size>
+    </header>
+    <header>
+      <name>cpt data at start of dive #8 (slow tissue)</name>
+      <offset>128</offset>
+      <size>4</size>
+    </header>
+  </computer>
+</Headers>

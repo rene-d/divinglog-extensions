@@ -1,0 +1,23 @@
+Installation URL: http://www.opencircuitscuba.com/downloads/rene/DL5GeoTag/
+Support URL: http://www.divinglog.de/phpbb/viewtopic.php?f=10&t=1560
+
+version 1.2.1 2011/11/13
+ - click-once (thanks to Andrew)
+ - improved help window
+
+version 1.2.0.4 2011/11/07
+ - remove spaces into coordinates (iPhone Dive Log compatibility)
+
+version 1.2.0.3 2011/10/01
+ - fixing lat/lon sign from exif
+ - drag'n'drop .jpg repaired
+
+version 1.2.0.2
+ - exception when no default logbook (Diving Log not installed for example)
+ - button About
+
+version 1.2.0.0
+ - add a flag to distinguish sites with and without coords
+
+version 1.0.0.0
+ - initial release

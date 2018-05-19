@@ -1,0 +1,19 @@
+﻿Sync Logbook for Diving Log 5.0
+
+Installation URL: http://www.opencircuitscuba.com/downloads/rene/DL5SyncLogbook/
+Support URL: http://www.divinglog.de/phpbb/viewtopic.php?f=10&t=1583
+
+
+2011/11/13		1.0.2
+	* Simulation button
+	* Add the advanced queries button. These queries are:
+		UPDATE Logbook INNER JOIN Country ON Country.Country=Logbook.Country SET Logbook.CountryId = Country.ID WHERE Logbook.CountryId IS NULL
+		UPDATE Logbook INNER JOIN City ON City.City=Logbook.City SET Logbook.CityId = City.ID WHERE Logbook.CityId IS NULL
+		UPDATE Logbook INNER JOIN Place ON Place.Place=Logbook.Place SET Logbook.PlaceId = Place.ID WHERE Logbook.PlaceId IS NULL
+		UPDATE Place SET MaxDepth=NULL WHERE MaxDepth=0
+
+2011/11/12		1.0.1
+	* Click-once application
+	
+2011/11/05		1.0.0
+	* Initial release
